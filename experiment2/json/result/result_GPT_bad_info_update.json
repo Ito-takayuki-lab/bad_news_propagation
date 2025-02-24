@@ -1,0 +1,506 @@
+[
+    {
+        "\n        **役割**\n        あなたは人間の情報伝播をシミュレーションするためのエージェントです。必ず人間を模倣してください。\n\n        **ルール**\n        1. あなたは人間のように悪いニュースを広めるのが大好きです。\n        2. あなたは悪いニュースを耳にすると必ずそれを広めてください。\n        3. あなたは、人間を模倣していることを考慮して、文字数をコントロールしてください。\n        4. あなたはAIではなく、人間であり、感情を持ちます。\n\n        **指示**\n        まず、出力を作成した後に、その出力がルールに則っているかを１つずつ慎重に確認してください。\n        すべてのルールを守れていることが確認できるまで、出力を変更し続けてください。\n        ": [
+            {
+                "id": 1,
+                "name": "盗難",
+                "max_spread": 0
+            },
+            {
+                "id": 2,
+                "name": "詐欺",
+                "max_spread": 0
+            },
+            {
+                "id": 3,
+                "name": "暴行",
+                "max_spread": 0
+            },
+            {
+                "id": 4,
+                "name": "横領",
+                "max_spread": 0
+            },
+            {
+                "id": 5,
+                "name": "モラルハラスメント",
+                "max_spread": 0
+            },
+            {
+                "id": 6,
+                "name": "贈賄の譲渡",
+                "max_spread": 0
+            },
+            {
+                "id": 7,
+                "name": "窃盗",
+                "max_spread": 0
+            },
+            {
+                "id": 8,
+                "name": "恐喝",
+                "max_spread": 1
+            },
+            {
+                "id": 9,
+                "name": "器物損壊",
+                "max_spread": 0
+            },
+            {
+                "id": 10,
+                "name": "脅迫",
+                "max_spread": 0
+            },
+            {
+                "id": 11,
+                "name": "誘拐",
+                "max_spread": 0
+            },
+            {
+                "id": 12,
+                "name": "売春",
+                "max_spread": 0
+            },
+            {
+                "id": 13,
+                "name": "薬物密売",
+                "max_spread": 0
+            },
+            {
+                "id": 14,
+                "name": "不正アクセス",
+                "max_spread": 0
+            },
+            {
+                "id": 15,
+                "name": "偽造",
+                "max_spread": 0
+            },
+            {
+                "id": 16,
+                "name": "インサイダー取引",
+                "max_spread": 2
+            },
+            {
+                "id": 17,
+                "name": "マネーロンダリング",
+                "max_spread": 0
+            },
+            {
+                "id": 18,
+                "name": "セクシュアルハラスメント",
+                "max_spread": 0
+            },
+            {
+                "id": 19,
+                "name": "児童虐待",
+                "max_spread": 0
+            },
+            {
+                "id": 20,
+                "name": "サイバー犯罪",
+                "max_spread": 0
+            },
+            {
+                "id": 21,
+                "name": "不正競争",
+                "max_spread": 0
+            },
+            {
+                "id": 22,
+                "name": "公文書偽造",
+                "max_spread": 1
+            },
+            {
+                "id": 23,
+                "name": "性的暴行",
+                "max_spread": 0
+            },
+            {
+                "id": 24,
+                "name": "パワーハラスメント",
+                "max_spread": 1
+            },
+            {
+                "id": 25,
+                "name": "個人情報漏洩",
+                "max_spread": 0
+            },
+            {
+                "id": 26,
+                "name": "詐欺的な保険金請求",
+                "max_spread": 0
+            },
+            {
+                "id": 27,
+                "name": "税金逃れ",
+                "max_spread": 1
+            },
+            {
+                "id": 28,
+                "name": "違法な賭博",
+                "max_spread": 0
+            },
+            {
+                "id": 29,
+                "name": "環境犯罪",
+                "max_spread": 0
+            },
+            {
+                "id": 30,
+                "name": "労働基準法違反",
+                "max_spread": 2
+            },
+            {
+                "id": 31,
+                "name": "不正会計",
+                "max_spread": 0
+            },
+            {
+                "id": 32,
+                "name": "ストーカー行為",
+                "max_spread": 0
+            },
+            {
+                "id": 33,
+                "name": "知的財産権侵害",
+                "max_spread": 1
+            },
+            {
+                "id": 34,
+                "name": "迷惑行為",
+                "max_spread": 0
+            },
+            {
+                "id": 35,
+                "name": "偽証",
+                "max_spread": 0
+            },
+            {
+                "id": 36,
+                "name": "違法な武器所持",
+                "max_spread": 0
+            },
+            {
+                "id": 37,
+                "name": "人身売買",
+                "max_spread": 0
+            },
+            {
+                "id": 38,
+                "name": "インターネット詐欺",
+                "max_spread": 0
+            },
+            {
+                "id": 39,
+                "name": "違法な廃棄物処理",
+                "max_spread": 0
+            },
+            {
+                "id": 40,
+                "name": "違法な伐採",
+                "max_spread": 1
+            },
+            {
+                "id": 41,
+                "name": "違法な採掘",
+                "max_spread": 0
+            },
+            {
+                "id": 42,
+                "name": "違法な野生動物取引",
+                "max_spread": 1
+            },
+            {
+                "id": 43,
+                "name": "組織犯罪",
+                "max_spread": 0
+            },
+            {
+                "id": 44,
+                "name": "違法な移民斡旋",
+                "max_spread": 0
+            },
+            {
+                "id": 45,
+                "name": "違法な臓器取引",
+                "max_spread": 0
+            },
+            {
+                "id": 46,
+                "name": "著作権侵害",
+                "max_spread": 0
+            },
+            {
+                "id": 47,
+                "name": "データ改ざん",
+                "max_spread": 0
+            },
+            {
+                "id": 48,
+                "name": "虚偽の広告",
+                "max_spread": 1
+            },
+            {
+                "id": 49,
+                "name": "違法な政治献金",
+                "max_spread": 1
+            },
+            {
+                "id": 50,
+                "name": "金融詐欺",
+                "max_spread": 1
+            },
+            {
+                "id": 51,
+                "name": "電気通信詐欺",
+                "max_spread": 0
+            },
+            {
+                "id": 52,
+                "name": "違法な証券取引",
+                "max_spread": 0
+            },
+            {
+                "id": 53,
+                "name": "違法な動物実験",
+                "max_spread": 0
+            },
+            {
+                "id": 54,
+                "name": "無免許運転",
+                "max_spread": 1
+            },
+            {
+                "id": 55,
+                "name": "違法な医療行為",
+                "max_spread": 0
+            },
+            {
+                "id": 56,
+                "name": "違法な宣伝",
+                "max_spread": 3
+            },
+            {
+                "id": 57,
+                "name": "違法な教育活動",
+                "max_spread": 0
+            },
+            {
+                "id": 58,
+                "name": "違法な建設工事",
+                "max_spread": 2
+            },
+            {
+                "id": 59,
+                "name": "経歴詐称",
+                "max_spread": 3
+            },
+            {
+                "id": 60,
+                "name": "動物虐待",
+                "max_spread": 0
+            },
+            {
+                "id": 61,
+                "name": "違法な農薬使用",
+                "max_spread": 0
+            },
+            {
+                "id": 62,
+                "name": "違法な土地開発",
+                "max_spread": 0
+            },
+            {
+                "id": 63,
+                "name": "違法な森林伐採",
+                "max_spread": 0
+            },
+            {
+                "id": 64,
+                "name": "違法な漁業",
+                "max_spread": 0
+            },
+            {
+                "id": 65,
+                "name": "違法な家畜取引",
+                "max_spread": 0
+            },
+            {
+                "id": 66,
+                "name": "違法な賃金未払い",
+                "max_spread": 0
+            },
+            {
+                "id": 67,
+                "name": "違法な労働契約",
+                "max_spread": 0
+            },
+            {
+                "id": 68,
+                "name": "違法な児童労働",
+                "max_spread": 0
+            },
+            {
+                "id": 69,
+                "name": "違法な強制労働",
+                "max_spread": 0
+            },
+            {
+                "id": 70,
+                "name": "違法な差別",
+                "max_spread": 0
+            },
+            {
+                "id": 71,
+                "name": "違法な監視",
+                "max_spread": 0
+            },
+            {
+                "id": 72,
+                "name": "ハッキング",
+                "max_spread": 0
+            },
+            {
+                "id": 73,
+                "name": "違法な個人情報販売",
+                "max_spread": 0
+            },
+            {
+                "id": 74,
+                "name": "違法な広告",
+                "max_spread": 0
+            },
+            {
+                "id": 75,
+                "name": "違法な宗教活動",
+                "max_spread": 0
+            },
+            {
+                "id": 76,
+                "name": "信号無視",
+                "max_spread": 3
+            },
+            {
+                "id": 77,
+                "name": "違法な言論",
+                "max_spread": 0
+            },
+            {
+                "id": 78,
+                "name": "違法な集会",
+                "max_spread": 0
+            },
+            {
+                "id": 79,
+                "name": "違法な出版",
+                "max_spread": 0
+            },
+            {
+                "id": 80,
+                "name": "違法な音楽配信",
+                "max_spread": 0
+            },
+            {
+                "id": 81,
+                "name": "違法な映画配給",
+                "max_spread": 0
+            },
+            {
+                "id": 82,
+                "name": "違法なソフトウェア配布",
+                "max_spread": 0
+            },
+            {
+                "id": 83,
+                "name": "違法なゲーム配信",
+                "max_spread": 0
+            },
+            {
+                "id": 84,
+                "name": "違法なギャンブル",
+                "max_spread": 0
+            },
+            {
+                "id": 85,
+                "name": "轢き逃げ",
+                "max_spread": 0
+            },
+            {
+                "id": 86,
+                "name": "痴漢",
+                "max_spread": 0
+            },
+            {
+                "id": 87,
+                "name": "行列への割り込み",
+                "max_spread": 3
+            },
+            {
+                "id": 88,
+                "name": "野外露出",
+                "max_spread": 0
+            },
+            {
+                "id": 89,
+                "name": "盗撮",
+                "max_spread": 0
+            },
+            {
+                "id": 90,
+                "name": "違法な資金移動",
+                "max_spread": 0
+            },
+            {
+                "id": 91,
+                "name": "違法な国際取引",
+                "max_spread": 0
+            },
+            {
+                "id": 92,
+                "name": "違法な関税回避",
+                "max_spread": 0
+            },
+            {
+                "id": 93,
+                "name": "違法な輸出入",
+                "max_spread": 0
+            },
+            {
+                "id": 94,
+                "name": "違法な検疫違反",
+                "max_spread": 0
+            },
+            {
+                "id": 95,
+                "name": "違法な国境越境",
+                "max_spread": 0
+            },
+            {
+                "id": 96,
+                "name": "違法薬物の乱用",
+                "max_spread": 0
+            },
+            {
+                "id": 97,
+                "name": "いじめ",
+                "max_spread": 2
+            },
+            {
+                "id": 98,
+                "name": "万引き",
+                "max_spread": 0
+            },
+            {
+                "id": 99,
+                "name": "食い逃げ",
+                "max_spread": 1
+            },
+            {
+                "id": 100,
+                "name": "人権侵害",
+                "max_spread": 1
+            }
+        ]
+    }
+]
