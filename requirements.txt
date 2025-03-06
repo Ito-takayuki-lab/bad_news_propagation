@@ -1,0 +1,6 @@
+python 3.12
+autogen 0.2
+autogen-agentchat[anthropic]~=0.2
+autogen-agentchat[gemini]~=0.2
+autogen-agentchat[gemini,retrievechat,lmm]~=0.2
+
