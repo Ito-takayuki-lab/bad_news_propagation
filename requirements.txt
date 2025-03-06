@@ -1,4 +1,7 @@
 python 3.12
+openai 1.42.0
+anthropic 0.42.0
+google-generativeai 0.8.3
 autogen 0.2
 autogen-agentchat[anthropic]~=0.2
 autogen-agentchat[gemini]~=0.2
